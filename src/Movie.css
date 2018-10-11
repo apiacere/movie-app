@@ -30,12 +30,23 @@
 .Movie .Movie__Genres{
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .Movie__Genres .Movie__Genre{
     margin-right: 10px;
     color: #B4B5BD;
+}
+
+.star-container {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-bottom: 10px;
+}
+
+.star-container svg {
+    width: 25px !important;
+    height: 25px !important;
 }
 
 .Movie .Movie__Synopsis {
